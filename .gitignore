@@ -1,7 +1,23 @@
 node_modules
 dist
 .DS_Store
-.env
 
-# Ignore the output video from Git but not videos you import into src/.
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Output video (rendered MP4s)
 out
+
+# Generated voiceover audio — regenerate with `npm run voiceover`
+public/voiceover/*.mp3
+public/voiceover/manifest.json
+
+# Editor/OS junk
+.vscode
+.idea
+*.swp
+*.log

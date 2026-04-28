@@ -1,0 +1,26 @@
+{
+  "title": "Shopee cập nhật phí cho người bán không thuộc Shopee Mall",
+  "highlight": "01/05/2026",
+  "date": "24/04/2026",
+  "style": "text-image-card",
+  "segments": [
+    {
+      "text": "Áp dụng từ 01/05/2026",
+      "voiceText": "Từ ngày 1 tháng 5 năm 2026, Shopee chính thức cập nhật phí dành cho Người bán không thuộc Shopee Mall."
+    },
+    {
+      "text": "Phí cố định giảm",
+      "voiceText": "Phí cố định ngành Tiêu dùng nhanh giảm từ 11% xuống 10%. Ngành Nhà cửa và Đời sống giảm từ 11.5% xuống 10.5%.",
+      "image": "1phicodinh.png"
+    },
+    {
+      "text": "Phí xử lý giao dịch tăng",
+      "voiceText": "Phí xử lý giao dịch tăng từ 4.91% lên 6%, áp dụng cho mọi phương thức thanh toán.",
+      "image": "2phixulygiaodich.png"
+    },
+    {
+      "text": "Cấn trừ trực tiếp trên đơn",
+      "voiceText": "Phí được cấn trừ trực tiếp trên từng đơn hàng trước khi tiền thanh toán chuyển vào số dư của Người bán."
+    }
+  ]
+}

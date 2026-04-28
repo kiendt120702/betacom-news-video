@@ -6,11 +6,16 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.45.0",
     "@remotion/cli": "4.0.452",
+    "@remotion/google-fonts": "^4.0.452",
+    "@remotion/media": "^4.0.452",
+    "@remotion/tailwind-v4": "4.0.452",
+    "@remotion/transitions": "^4.0.452",
+    "mediabunny": "^1.41.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.452",
-    "@remotion/tailwind-v4": "4.0.452",
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
@@ -25,7 +30,8 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "voiceover": "node --env-file=.env --experimental-strip-types scripts/generate-voiceover.ts"
   },
   "sideEffects": [
     "*.css"
